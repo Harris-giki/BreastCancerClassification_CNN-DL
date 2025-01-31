@@ -27,9 +27,6 @@ The **CNN model** used in this project is a custom architecture designed for bre
 - **Global Average Pooling** (Dimensionality Reduction)
 - **Fully Connected Layers** (Classification)
 
-### 🖼️ Model Flowchart
-![Model Architecture](model_flowchart.png)
-
 The model is trained on a dataset of **mammogram images**, aiming to accurately distinguish between **benign** and **malignant tumors**.
 
 ---
