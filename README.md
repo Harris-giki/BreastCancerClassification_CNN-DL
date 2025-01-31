@@ -1,58 +1,79 @@
-# Breast Tumor Classification
+# 🩺 Breast Tumor Classification
 
-## Overview
-This project is a **Streamlit-based web application** that enables users to upload medical mammogram images and classifies them as either **"Benign" or "Malignant"** using a **convolutional neural network (CNN)** model. The application provides a user-friendly interface, displays prediction results with confidence levels, and includes a disclaimer encouraging users to consult medical professionals for definitive diagnoses.
+## 📌 Overview
+This project is a **Streamlit-based web application** that allows users to **upload medical mammogram images** and classifies them as either **"Benign"** or **"Malignant"** using a **Convolutional Neural Network (CNN)** model. The application provides a **user-friendly interface**, displays the **prediction results with confidence levels**, and includes a **disclaimer** to encourage users to consult medical professionals for definitive diagnosis.
 
-## Features
-- Upload medical mammogram images for classification.
-- Displays the uploaded image and the predicted tumor type (**Benign or Malignant**).
-- Shows the **confidence level** of the prediction.
-- Includes a **disclaimer** emphasizing the need for professional medical advice.
-- Utilizes a **pre-trained CNN model** for tumor classification.
-- Built with **Streamlit** to create a responsive and interactive web application.
+---
 
-## Model Architecture
-The CNN model used in this project is a **custom architecture** designed specifically for breast tumor classification. The model consists of:
-- Multiple **convolutional layers** for feature extraction.
-- **Batch normalization** to stabilize training.
-- **Max pooling layers** to reduce spatial dimensions.
-- **Dropout layers** to prevent overfitting.
-- A **global average pooling layer** and **fully connected layers** for classification.
+## ✨ Features
+| Feature | Description |
+|---------|-------------|
+| 🖼️ Upload | Users can upload mammogram images for classification |
+| 📊 Prediction | Displays the predicted tumor type (**Benign** or **Malignant**) |
+| 📈 Confidence Score | Shows the confidence level of the prediction |
+| ⚠️ Disclaimer | Emphasizes the need for **professional medical advice** |
+| 🤖 CNN Model | Uses a **pre-trained Convolutional Neural Network** |
+| 🌐 Streamlit UI | Provides a **responsive and interactive web application** |
 
-The model is trained on a dataset of mammogram images to accurately distinguish between benign and malignant tumors.
+---
 
-## Installation and Usage
-To run the Breast Tumor Classification application, follow these steps:
+## 🏗️ Model Architecture
+The **CNN model** used in this project is a custom architecture designed for breast tumor classification. It consists of multiple layers:
 
-### 1. Clone the repository:
+- **Convolutional Layers** (Feature Extraction)
+- **Batch Normalization** (Stabilization)
+- **Max Pooling** (Downsampling)
+- **Dropout** (Regularization)
+- **Global Average Pooling** (Dimensionality Reduction)
+- **Fully Connected Layers** (Classification)
+
+### 🖼️ Model Flowchart
+![Model Architecture](model_flowchart.png)
+
+The model is trained on a dataset of **mammogram images**, aiming to accurately distinguish between **benign** and **malignant tumors**.
+
+---
+
+## 🛠️ Installation and Usage
+To run the **Breast Tumor Classification** application, follow these steps:
+
+### 1️⃣ Clone the repository:
 ```bash
 git clone https://github.com/your-username/breast-tumor-classification.git
 ```
 
-### 2. Navigate to the project directory:
+### 2️⃣ Navigate to the project directory:
 ```bash
 cd breast-tumor-classification
 ```
 
-### 3. Install the required dependencies:
+### 3️⃣ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Save the pre-trained model to the project directory:
+### 4️⃣ Save the pre-trained model to the project directory:
 ```bash
 mv breast_tumor_model.h5 .
 ```
 
-### 5. Run the Streamlit application:
+### 5️⃣ Run the Streamlit application:
 ```bash
 streamlit run app.py
 ```
 
-The application will be available at **http://localhost:8501**. Upload a mammogram image, and the application will display the predicted tumor type and confidence level.
+🔗 The application will be available at **http://localhost:8501**. Upload a **mammogram image**, and the app will display the **predicted tumor type** and **confidence level**.
 
-## Disclaimer
-This application is intended for **educational and research purposes only**. It should **not** be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for any medical concerns.
+---
 
-## Contributions
-Contributions to this project are **welcome**! If you have suggestions, bug reports, or would like to add new features, feel free to **open an issue** or submit a **pull request**.
+## ⚠️ Disclaimer
+> **This application is intended for educational and research purposes only.** It should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified **healthcare provider** for any medical concerns.
+
+---
+
+## 🤝 Contributions
+Contributions are **welcome**! If you have any **suggestions, bug reports**, or want to **add new features**, feel free to:
+- **Open an issue** 📝
+- **Submit a pull request** 🔄
+
+Let’s build something great together! 🚀
