@@ -36,12 +36,12 @@ To run the **Breast Tumor Classification** application, follow these steps:
 
 ### 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/your-username/breast-tumor-classification.git
+git clone https://github.com/your-username/BreastCancerClassification_CNN-DL.git
 ```
 
 ### 2️⃣ Navigate to the project directory:
 ```bash
-cd breast-tumor-classification
+cd BreastCancerClassification_CNN-DL
 ```
 
 ### 3️⃣ Install the required dependencies:
@@ -49,9 +49,9 @@ cd breast-tumor-classification
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Save the pre-trained model to the project directory:
+### 4️⃣ The pre-trained model is saved with the project directory:
 ```bash
-mv breast_tumor_model.h5 .
+breast_tumor_model.h5 .
 ```
 
 ### 5️⃣ Run the Streamlit application:
