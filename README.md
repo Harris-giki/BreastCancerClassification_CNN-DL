@@ -36,7 +36,7 @@ To run the **Breast Tumor Classification** application, follow these steps:
 
 ### 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/your-username/BreastCancerClassification_CNN-DL.git
+git clone https://github.com/Harris-giki/BreastCancerClassification_CNN-DL.git
 ```
 
 ### 2️⃣ Navigate to the project directory:
