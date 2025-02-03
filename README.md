@@ -19,6 +19,7 @@ This project is a **Streamlit-based web application** that allows users to **upl
 
 ## 📚 Dataset
 This project used the dataset comprising of mammographic images containing both benign and malignant masses in the female breasts. This dataset was made by extracting 106 mass images from the INbreast, 53 from MIAS and 2,188 from the DDSM dataset. However, my approach only examined the results of the INbreast dataset. The dataset applied data augmentation techniques along with contrast limited adaptive histogram equalization, as a result the number of images increased significantly to 7,632 specifically for the INbreast dataset. To maintain accuracy the dataset contains all images that were resized to 227x227 pixels. It is available to be downloaded open source through: https://data.mendeley.com/datasets/ywsbh3ndr8/2. 
+
 ---
 
 ## 🏗️ Model Architecture
